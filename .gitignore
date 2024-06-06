@@ -1,0 +1,7 @@
+dist
+node_modules
+site
+.DS_Store
+/backup
+/src/backup
+ex.err
