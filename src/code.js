@@ -44,8 +44,8 @@ tqis = """
 _____this
      string\thing""",
 
-bts = `this
-string\thing`,
+bts = `+`this
+string\thing`+`,
 
 dqs = "this\nstring\\thing"
 assert(tqs==tqis and tqis==bts and bts==dqs and dqs==tqs)
